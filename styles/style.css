@@ -1,11 +1,30 @@
+html {background-color: rgb(248,240,210)}
+body{
+    padding-top: 60px;
+    
+}
+a {
+    color: rgb(3, 122, 152);
+  }
+  a:visited {
+    color: rgb(3, 122, 152);
+  }
+  a:hover {
+    color: #0bc73a;
+  }
+  a:active {
+    color: rgb(3, 122, 152);
+  }
+
 h1 {
-    color: grey;
+    color: rgb(3, 122, 152);
+    border-radius: 6px;
+    display: block;
+    padding: 24px 15px;
+    text-align: center;
 }
-.blue_overline_text {
-    color: blue;
-    text-decoration: overline;
-}
-#red_underline_text {
-    color: red;
-    text-decoration: underline;
+
+
+p{
+    color: black;
 }
