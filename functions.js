@@ -11,11 +11,11 @@ function toggleStyleSheet(){
     var currstyle = element.getAttribute("href");
     // 1 (c) Determine new stylesheet file name
     var Stylereplace;
-    if(currstyle=="/styles/style.css"){
-        Stylereplace="/styles/style2.css";
+    if(currstyle=="styles/style.css"){
+        Stylereplace="styles/style2.css";
     }
     else {
-        Stylereplace="/styles/style.css";
+        Stylereplace="styles/style.css";
     }
     
     // 1 (d) replace stylesheet with new stylesheet (hint: element.setAttribute)
