@@ -6,11 +6,11 @@ function toggleStyleSheet(){
     // Task 1
     // Steps
     // 1 (a) Get style element by ID (hint: getElementById)
-    const element = document.getElementById("styleSheetID");
+    var element = document.getElementById("styleSheetID");
     // 1 (b) Check the current stylesheet file name. (hint: element.getAttribute)
-    var currstyle = element.getAttribute("href");
+    const currstyle = element.getAttribute("href");
     // 1 (c) Determine new stylesheet file name
-    var Stylereplace;
+    var Stylereplace="styles/style.css";
     if(currstyle=="styles/style.css"){
         Stylereplace="styles/style2.css";
     }
