@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Brint Nielson</title>
-<link rel="stylesheet" type="text/css" href="../styles/style.css"></link>
+    <title>Brint Nielson</title>
+    <link id="styleSheetID" rel="stylesheet" href="/styles/style.css">
+    </link>
 </head>
+
 <body>
-
-    <h1>Brint Nielson
-        <a href="../index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="qualifications.html">Qualifications</a>
-        <a href="service.html">Service</a>
-        <a href="aigeneration.html">AI Page</a>
-        </h1>
-
-<p>Growing up, I had an interest in contributing to my community. My father is a part-time firefighter at <a href="https://cyfairfd.org/">Cy-Fair Fire Department</a> and he helped teach me the 
-    value in helping those in need. Throughout high school, I would regularly volunteer with the fire station and was formally trained
-    and am CPR certified. I also would regularly participate in suicide-prevention marathons to help raise awareness. Life guarding
-    was also another way that I felt that I contributed to my community- making sure the public was able to safely enjoy time with their loved ones at the pool. 
-</p>
-<img src="../images/IMG_3313.JPG" alt="Me and firefighters" >
-
+    <h1>Brint Nielson<!--Universal headings -->
+        <br><a href="/index.html">Home</a>
+        <br><a href="/pages/portfolio.html">Portfolio</a>
+        <br><a href="/pages/qualifications.html">Qualifications</a>
+        <br><a href="/pages/service.html">Service</a>
+        <br><a href="/pages/aigeneration.html">AI Page</a>
+        <br><button onclick="toggleStyleSheet()" type="button">Toggle Style</button><!--button to change style -->
+    </h1>
+    <div class="serv"> <!--Class for service -->
+        <div class="servText">
+            <h3>My Community Contributions</h3>
+            <p>Growing up, I had an interest in contributing to my community. My father is a volunteer firefighter at <a
+                    href="https://cyfairfd.org/" target="_blank">Cy-Fair Fire Department</a> and he helped teach me the
+                value in helping those in need. Throughout high school, I would regularly volunteer with the fire
+                station and
+                was formally trained
+                and am CPR certified. I also would regularly participate in suicide-prevention marathons to help raise
+                awareness.
+                <br><br>One thing that I also worked for in my community was helping those who were struck bad by
+                Hurricane
+                Harvey.
+                My mother, friends, and I worked to give a helping hand for those who needed anything ranging from
+                helping move damaged items to
+                helping knock out damaged walls.
+                <br><br>Life guarding was also another way that I felt that I contributed to my community- making sure
+                the
+                public was able to safely
+                enjoy time with their loved ones at the pool.
+            </p>
+        </div>
+        <div class="serImg"> <!--Img for service -->
+            <img src="../images/IMG_3313.JPG" alt="Me and firefighters">
+        </div>
+    </div>
+    <script src="/functions.js"></script><!--Javascript for button-->
 </body>
+
 </html>

@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Brint Nielson</title>
-<link rel="stylesheet" type="text/css" href="../styles/style.css"></link>
+    <title>Brint Nielson</title>
+    <link id="styleSheetID" rel="stylesheet" href="/styles/style.css">
+    </link>
 </head>
+
 <body>
-    <h1>Brint Nielson
-        <a href="../index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="qualifications.html">Qualifications</a>
-        <a href="service.html">Service</a>
-        <a href="aigeneration.html">AI Page</a>
-        </h1>
+    <h1>Brint Nielson<!--Universal headings -->
+        <br><a href="/index.html">Home</a>
+        <br><a href="/pages/portfolio.html">Portfolio</a>
+        <br><a href="/pages/qualifications.html">Qualifications</a>
+        <br><a href="/pages/service.html">Service</a>
+        <br><a href="/pages/aigeneration.html">AI Page</a>
+        <br><button onclick="toggleStyleSheet()" type="button">Toggle Style</button><!--button to change style -->
+
+    </h1>
+    <script src="/functions.js"></script><!--Javascript for button-->
+    <div class="aipage"> <!--Class to explain the ai page -->
+        <div class="aitext">
+            <p>The page below was created by <a href="https://chat.openai.com/" download target="_blank">ChatGPT</a>
+                using the prompt below</p>
+        </div>
+        <div class="aiimage">
+            <img src="/images/Capture.PNG" alt="aigeneration">
+        </div>
+    </div>
+    <div class="margin"> <!--Class for margin -->
+
+        <h2>About Me</h2>
+        <p>My name is Brint Nielson and I am currently pursuing a Bachelor's degree in Computer Engineering at Texas
+            A&M. I am passionate about artificial intelligence, space, and quantum computing, with a particular focus on
+            artificial intelligence.</p>
+
+        <h2>Artificial Intelligence</h2>
+        <p>Artificial intelligence (AI) is the simulation of human intelligence in machines that are programmed to think
+            and learn like humans. It is a rapidly growing field with many potential applications in areas such as
+            healthcare, finance, and transportation.</p>
+
+        <h2>Space</h2>
+        <p>Space exploration has been a key focus of scientific research for decades. It has led to many groundbreaking
+            discoveries and technological advancements, and has the potential to provide valuable insights into our
+            universe and its origins.</p>
+
+        <h2>Wrong Facts About Bears</h2>
+        <ul>
+            <li>Bears can fly</li>
+            <li>Bears love to wear hats</li>
+            <li>Bears are actually just big cats in disguise</li>
+        </ul>
+    </div>
 
 </body>
+
 </html>

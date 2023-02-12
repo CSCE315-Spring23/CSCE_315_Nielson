@@ -1,30 +1,113 @@
 html {background-color: rgb(248,240,210)}
-body{
-    padding-top: 60px;
+/* body{
+  
     
+} */
+
+.Am{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  margin-left: 200px;
+}
+.AmHead{
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    font-style:  italic;
+    grid-column: 1;
+    grid-row: 1;
+}
+.AmDesc{
+    padding-top: 25px;
+    font-size: 17px;
+    color: black;
+    grid-column: 1;
+    grid-row: 1;
+}
+.margin{
+  margin-left: 200px;
+}
+.pro{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  margin-left: 200px;
+}
+.qual{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr ;
+  grid-template-rows: 310px;
+  gap: 10px;
+  text-align: center;
+}
+.qualSkills{
+  grid-column: 2;
+  grid-row: 1;
+}
+.qualInterest{
+  grid-column: 3;
+  grid-row: 1;
+}
+.QualImage1{
+  grid-column: 3;
+  grid-row: 2;
+}
+.QualImage2{
+  grid-column: 2;
+  grid-row: 2;
+  
+}
+.resLink{
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.serv{
+  margin-left: 200px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  gap: 10px;
+}
+.aipage{
+  margin-left: 200px;
+
+  text-align: center;
+  background-color: black;
+}
+.aitext{
+  color: #0074B7;
 }
 a {
-    color: rgb(3, 122, 152);
+    color: #0074B7;
   }
   a:visited {
-    color: rgb(3, 122, 152);
+    color: #0074B7;
   }
   a:hover {
     color: #0bc73a;
   }
   a:active {
-    color: rgb(3, 122, 152);
+    color: #0074B7;
   }
 
 h1 {
-    color: rgb(3, 122, 152);
-    border-radius: 6px;
-    display: block;
-    padding: 24px 15px;
-    text-align: center;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  background-color: #000002;
+  color: #0074B7;
+  
+
 }
 
 
-p{
-    color: black;
-}

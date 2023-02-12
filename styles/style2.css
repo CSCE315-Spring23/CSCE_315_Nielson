@@ -1,0 +1,37 @@
+html {background-color: #d9d9d9}
+body{
+    padding-top: 60px;
+    
+}
+
+a {
+    color: #003153;
+  }
+  a:visited {
+    color: #003153;
+  }
+  a:hover {
+    color: #0bc73a;
+  }
+  a:active {
+    color: #003153;
+  }
+
+h1 {
+    background-color: #FFCE00;
+    color: #003153;
+    border-radius: 6px;
+    display: block;
+    padding: 24px 15px;
+    text-align: left;
+    
+}
+br {
+  display: inline;
+  content: ' ';
+  
+}
+
+p{
+    color: #1d2731;
+}

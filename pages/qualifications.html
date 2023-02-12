@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Brint Nielson</title>
-<link rel="stylesheet" type="text/css" href="../styles/style.css"></link>
-</head>
-<body>
-<h1>Brint Nielson
-<a href="../index.html">Home</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="qualifications.html">Qualifications</a>
-<a href="service.html">Service</a>
-<a href="aigeneration.html">AI Page</a>
-</h1>
-<h3><a href="resume.pdf" download>Click here to download my Resume</a></h3>
-<h3><a href="https://www.linkedin.com/in/brint-nielson-879961160/" >Click here for my LinkedIn</a></h3>
-<h3>Skills</h3>
-<p>8 years of coding experience overall.</p>
-<p>Worked with C++, Java, Python, C, and assembly.</p>
-<h3>Interest</h3>
-<p>Growing up, I was deeply interested in space and its potential future. 
-    This led me to want to pursue a future in aerospace engineering. 
-However as I started learning programming and more about computers I became 
-sure that what I wanted to do in the future was tied with computers.
-As I learned more I became more passionate towards artificial intelligence
-and it's potential. Although artificial intelligence has become my main Interest
-I am still impassioned towards space as well as some other subjects like quantum computing.
- </p>
 
+<head>
+    <title>Brint Nielson</title>
+    <link id="styleSheetID" rel="stylesheet" href="/styles/style.css">
+    </link>
+</head>
+
+<body>
+    <h1>Brint Nielson<!--Universal headings -->
+        <br><a href="/index.html">Home</a>
+        <br><a href="/pages/portfolio.html">Portfolio</a>
+        <br><a href="/pages/qualifications.html">Qualifications</a>
+        <br><a href="/pages/service.html">Service</a>
+        <br><a href="/pages/aigeneration.html">AI Page</a>
+        <br><button onclick="toggleStyleSheet()" type="button">Toggle Style</button><!--button to change style -->
+    </h1>
+    <div class="resLink"> <!--Class for resume and linkedin -->
+        <p>Resume <a href="resume.pdf" download target="_blank">download</a> or <a href="resume.pdf" target="_blank">
+                view</a></p>
+        <p><a href="https://www.linkedin.com/in/brint-nielson-879961160/" target="_blank">Click here for my LinkedIn</a>
+        </p>
+        
+    </div>
+    <div class="qual"> <!--Class for qualifications -->
+        <div class="qualSkills">
+            <h3>Skills</h3>
+            <p>8 years of coding experience overall.</p>
+            <p>Worked with C++, Java, Python, C, and assembly.</p>
+        </div>
+        <div class="qualInterest">
+            <h3>Interest</h3>
+            <p>Growing up, I was deeply interested in space and its potential future.
+                This led me to want to pursue a future in aerospace engineering.
+                However as I started learning programming and more about computers I became
+                sure that what I wanted to do in the future was tied with computers.
+                As I learned more I became more passionate towards artificial intelligence
+                and it's potential. Although artificial intelligence has become my main Interest
+                I am still impassioned towards space as well as some other subjects like quantum computing.
+            </p>
+            <p>Below are some companies that are invested into AI/machine learning research that I would like to eventually work at</p>
+        <ul>
+            <li><a href="https://www.nvidia.com/en-us/" target="_blank">Nvidia</a></li>
+            <li><a href="https://www.amd.com/en/graphics/servers-instinct-deep-learning" target="_blank">AMD</a></li>
+            <li><a href="https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html#:~:text=From%20accelerating%20scientific%20research%20to,solve%20today's%20most%20complex%20challenges." target="_blank">Intel</a></li>
+            <li><a href="https://ai.google/" target="_blank">Google</a></li>
+        </ul>
+        </div>
+        <div class="QualImage1"><!--Qual Images -->
+            <img src="/images/solar-system-gc2edb47d5_1280.jpg" alt="solarsystem" width="500px" height="400px">
+        </div>
+        <div class="QualImage2"><!--Qual Images -->
+            <img src="/images/machinebrain.jpg" alt="machinebrain" width="500px" height="400px">
+        </div>
+    </div>
+    <script src="/functions.js"></script><!--Javascript for button-->
 </body>
+
 </html>
