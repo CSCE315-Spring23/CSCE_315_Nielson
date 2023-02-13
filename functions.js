@@ -34,7 +34,7 @@ window.onload = function(){
 
     // Steps
     // 2 (a) get stylesheet name from local storage hint: localStorage.getItem(name)
-    var styleStorage=localStorage.getItem("styleStorage1");
+    var styleStorage=localStorage.getItem("styleStorage1")||"styles/style.css";
     // 2 (b) get html style element by ID
     var grabStyle=document.getElementById("styleSheetID");
     // 2 (c) replace href attribute of html element.
